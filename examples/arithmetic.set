@@ -1,0 +1,2 @@
+let int lower be 3 .
+show (lower + 2) * 4 - 1 .

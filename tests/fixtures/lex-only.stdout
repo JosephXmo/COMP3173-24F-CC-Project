@@ -1,0 +1,6 @@
+UIC Set Language Compiler
+source: tests/fixtures/lex-only.set
+status: success
+
+phases:
+  lexical:  ok (6 tokens)

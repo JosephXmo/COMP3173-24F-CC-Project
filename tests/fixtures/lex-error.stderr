@@ -1,0 +1,12 @@
+UIC Set Language Compiler
+source: tests/fixtures/lex-error.set
+status: error
+
+diagnostic:
+  phase:    lexical
+  code:     L1002
+  location: 1:6-1:9
+  message:  leading zero in integer literal
+
+1 | show 012 .
+  |      ^

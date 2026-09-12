@@ -1,0 +1,5 @@
+{
+  "schema": "uslc.diagnostics.v1",
+  "source": "tests/fixtures/check-only.set",
+  "diagnostics": []
+}

@@ -1,0 +1,3 @@
+let int lower be 3 .
+let set positive be { x : x > lower } .
+show 5 @ positive .
