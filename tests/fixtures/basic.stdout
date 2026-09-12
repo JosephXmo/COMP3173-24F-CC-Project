@@ -1,0 +1,13 @@
+UIC Set Language Compiler
+source: tests/fixtures/basic.set
+status: success
+
+phases:
+  lexical:  ok (4 tokens)
+  syntax:   ok (9 parse nodes)
+  typing:   ok
+  evaluate: ok
+
+result:
+  type:  integer
+  value: 3

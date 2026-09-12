@@ -1,0 +1,21 @@
+name: C23 compiler checks
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y clang flex bison libjson-c-dev pkg-config
+      - run: sh scripts/test.sh debug
+      - run: sh scripts/test.sh release
+      - run: SANITIZE=1 sh scripts/test.sh debug
+  macos:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install llvm flex bison json-c pkg-config
+      - name: Test with Homebrew toolchain
+        run: |
+          export PATH="$(brew --prefix llvm)/bin:$(brew --prefix flex)/bin:$(brew --prefix bison)/bin:$PATH"
+          sh scripts/test.sh debug
+          sh scripts/test.sh release

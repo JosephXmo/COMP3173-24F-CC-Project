@@ -1,0 +1,46 @@
+# Repository-local build products
+/build/
+/coverage/
+/artifacts/
+compile_commands.json
+/uslc
+/uslc_tests
+/*.log
+
+# CLI artifacts in the project root; retain golden files under tests/
+/tokens.json
+/parser_out.json
+/ast.json
+/typing_out.json
+/evaluation_out.json
+/diagnostics.json
+
+# Compiler and linker outputs
+*.o
+*.d
+*.a
+*.so
+*.dylib
+
+# Flex and Bison outputs accidentally generated outside build/
+lex.yy.c
+*.tab.c
+*.tab.h
+*.output
+
+# Coverage, profiling, and sanitizer outputs
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+*.stackdump
+
+# Local editor files
+*.swp
+*.swo
+*~
+
+# Operating-system noise
+.DS_Store
+Thumbs.db
