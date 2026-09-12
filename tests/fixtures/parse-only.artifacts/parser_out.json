@@ -1,0 +1,211 @@
+{
+  "schema": "uslc.parser.v1",
+  "source": "tests/fixtures/parse-only.set",
+  "root": {
+    "symbol": "S",
+    "production_id": 2,
+    "span": {
+      "start": {
+        "line": 1,
+        "column": 1,
+        "offset": 0
+      },
+      "end": {
+        "line": 1,
+        "column": 15,
+        "offset": 14
+      }
+    },
+    "children": [
+      {
+        "symbol": "C",
+        "production_id": 31,
+        "span": {
+          "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13,
+            "offset": 12
+          }
+        },
+        "children": [
+          {
+            "symbol": "show",
+            "production_id": null,
+            "span": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 5,
+                "offset": 4
+              }
+            },
+            "token": {
+              "kind": "SHOW",
+              "lexeme": "show",
+              "span": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 5,
+                  "offset": 4
+                }
+              }
+            },
+            "children": []
+          },
+          {
+            "symbol": "A",
+            "production_id": 32,
+            "span": {
+              "start": {
+                "line": 1,
+                "column": 6,
+                "offset": 5
+              },
+              "end": {
+                "line": 1,
+                "column": 13,
+                "offset": 12
+              }
+            },
+            "children": [
+              {
+                "symbol": "E",
+                "production_id": 8,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 6,
+                    "offset": 5
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 13,
+                    "offset": 12
+                  }
+                },
+                "children": [
+                  {
+                    "symbol": "E'",
+                    "production_id": 12,
+                    "span": {
+                      "start": {
+                        "line": 1,
+                        "column": 6,
+                        "offset": 5
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 13,
+                        "offset": 12
+                      }
+                    },
+                    "children": [
+                      {
+                        "symbol": "E''",
+                        "production_id": 16,
+                        "span": {
+                          "start": {
+                            "line": 1,
+                            "column": 6,
+                            "offset": 5
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 13,
+                            "offset": 12
+                          }
+                        },
+                        "children": [
+                          {
+                            "symbol": "id",
+                            "production_id": null,
+                            "span": {
+                              "start": {
+                                "line": 1,
+                                "column": 6,
+                                "offset": 5
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 13,
+                                "offset": 12
+                              }
+                            },
+                            "token": {
+                              "kind": "ID",
+                              "lexeme": "missing",
+                              "span": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 6,
+                                  "offset": 5
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 13,
+                                  "offset": 12
+                                }
+                              }
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "symbol": ".",
+        "production_id": null,
+        "span": {
+          "start": {
+            "line": 1,
+            "column": 14,
+            "offset": 13
+          },
+          "end": {
+            "line": 1,
+            "column": 15,
+            "offset": 14
+          }
+        },
+        "token": {
+          "kind": "DOT",
+          "lexeme": ".",
+          "span": {
+            "start": {
+              "line": 1,
+              "column": 14,
+              "offset": 13
+            },
+            "end": {
+              "line": 1,
+              "column": 15,
+              "offset": 14
+            }
+          }
+        },
+        "children": []
+      }
+    ]
+  }
+}

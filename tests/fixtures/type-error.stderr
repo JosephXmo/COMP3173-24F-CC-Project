@@ -1,0 +1,12 @@
+UIC Set Language Compiler
+source: tests/fixtures/type-error.set
+status: error
+
+diagnostic:
+  phase:    typing
+  code:     T3004
+  location: 1:14-1:15
+  message:  initializer has type integer; declaration requires set
+
+1 | let set x be 4 .
+  |              ^

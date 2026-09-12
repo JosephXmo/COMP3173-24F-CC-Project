@@ -1,0 +1,53 @@
+# Repository-local build products
+/build/
+/coverage/
+compile_commands.json
+/uslc
+/uslc_tests
+/*.log
+
+# CLI artifacts in the project root; retain golden JSON files under tests/
+/artifacts/
+/tokens.json
+/parser_out.json
+/ast.json
+/typing_out.json
+/evaluation_out.json
+/diagnostics.json
+
+# Compiler and linker outputs
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.ipch
+*.iobj
+*.ipdb
+
+# Coverage, profiling, and sanitizer outputs
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+*.stackdump
+
+# Local IDE caches and editor temporary files
+/.vs/
+*.swp
+*.swo
+*~
+
+# Operating-system noise
+.DS_Store
+Thumbs.db

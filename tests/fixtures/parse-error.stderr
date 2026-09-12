@@ -1,0 +1,12 @@
+UIC Set Language Compiler
+source: tests/fixtures/parse-error.set
+status: error
+
+diagnostic:
+  phase:    syntax
+  code:     P2002
+  location: 2:1-2:1
+  message:  unexpected EOF; expected: ., U, +, -, I, *, ), }, |, &, <, >, =, @
+
+2 | 
+  | ^

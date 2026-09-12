@@ -1,0 +1,23 @@
+{
+  "schema": "uslc.diagnostics.v1",
+  "source": "tests/fixtures/evaluation-error.set",
+  "diagnostics": [
+    {
+      "code": "E4001",
+      "phase": "evaluate",
+      "message": "integer overflow in operator '+'",
+      "span": {
+        "start": {
+          "line": 1,
+          "column": 26,
+          "offset": 25
+        },
+        "end": {
+          "line": 1,
+          "column": 27,
+          "offset": 26
+        }
+      }
+    }
+  ]
+}

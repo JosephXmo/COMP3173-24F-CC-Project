@@ -1,0 +1,13 @@
+UIC Set Language Compiler
+source: tests/fixtures/arithmetic.set
+status: success
+
+phases:
+  lexical:  ok (10 tokens)
+  syntax:   ok (23 parse nodes)
+  typing:   ok
+  evaluate: ok
+
+result:
+  type:  integer
+  value: 2
