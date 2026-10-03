@@ -1,0 +1,518 @@
+{
+  "schema": "uslc.parser.v1",
+  "source": "tests/fixtures/type-error.set",
+  "root": {
+    "symbol": "S",
+    "production_id": 1,
+    "span": {
+      "start": {
+        "line": 1,
+        "column": 1,
+        "offset": 0
+      },
+      "end": {
+        "line": 2,
+        "column": 9,
+        "offset": 25
+      }
+    },
+    "children": [
+      {
+        "symbol": "D'",
+        "production_id": 4,
+        "span": {
+          "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 17,
+            "offset": 16
+          }
+        },
+        "children": [
+          {
+            "symbol": "D",
+            "production_id": 5,
+            "span": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 17,
+                "offset": 16
+              }
+            },
+            "children": [
+              {
+                "symbol": "let",
+                "production_id": null,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 4,
+                    "offset": 3
+                  }
+                },
+                "token": {
+                  "kind": "LET",
+                  "lexeme": "let",
+                  "span": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 4,
+                      "offset": 3
+                    }
+                  }
+                },
+                "children": []
+              },
+              {
+                "symbol": "T",
+                "production_id": 7,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 5,
+                    "offset": 4
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 8,
+                    "offset": 7
+                  }
+                },
+                "children": [
+                  {
+                    "symbol": "set",
+                    "production_id": null,
+                    "span": {
+                      "start": {
+                        "line": 1,
+                        "column": 5,
+                        "offset": 4
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 8,
+                        "offset": 7
+                      }
+                    },
+                    "token": {
+                      "kind": "SET",
+                      "lexeme": "set",
+                      "span": {
+                        "start": {
+                          "line": 1,
+                          "column": 5,
+                          "offset": 4
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 8,
+                          "offset": 7
+                        }
+                      }
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "symbol": "id",
+                "production_id": null,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 9,
+                    "offset": 8
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 10,
+                    "offset": 9
+                  }
+                },
+                "token": {
+                  "kind": "ID",
+                  "lexeme": "x",
+                  "span": {
+                    "start": {
+                      "line": 1,
+                      "column": 9,
+                      "offset": 8
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 10,
+                      "offset": 9
+                    }
+                  }
+                },
+                "children": []
+              },
+              {
+                "symbol": "be",
+                "production_id": null,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 11,
+                    "offset": 10
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 13,
+                    "offset": 12
+                  }
+                },
+                "token": {
+                  "kind": "BE",
+                  "lexeme": "be",
+                  "span": {
+                    "start": {
+                      "line": 1,
+                      "column": 11,
+                      "offset": 10
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 13,
+                      "offset": 12
+                    }
+                  }
+                },
+                "children": []
+              },
+              {
+                "symbol": "E",
+                "production_id": 8,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 14,
+                    "offset": 13
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 15,
+                    "offset": 14
+                  }
+                },
+                "children": [
+                  {
+                    "symbol": "E'",
+                    "production_id": 12,
+                    "span": {
+                      "start": {
+                        "line": 1,
+                        "column": 14,
+                        "offset": 13
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 15,
+                        "offset": 14
+                      }
+                    },
+                    "children": [
+                      {
+                        "symbol": "E''",
+                        "production_id": 15,
+                        "span": {
+                          "start": {
+                            "line": 1,
+                            "column": 14,
+                            "offset": 13
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                          }
+                        },
+                        "children": [
+                          {
+                            "symbol": "num",
+                            "production_id": null,
+                            "span": {
+                              "start": {
+                                "line": 1,
+                                "column": 14,
+                                "offset": 13
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 15,
+                                "offset": 14
+                              }
+                            },
+                            "token": {
+                              "kind": "NUM",
+                              "lexeme": "4",
+                              "span": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 14,
+                                  "offset": 13
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 15,
+                                  "offset": 14
+                                }
+                              },
+                              "value": 4
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "symbol": ".",
+                "production_id": null,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 16,
+                    "offset": 15
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 17,
+                    "offset": 16
+                  }
+                },
+                "token": {
+                  "kind": "DOT",
+                  "lexeme": ".",
+                  "span": {
+                    "start": {
+                      "line": 1,
+                      "column": 16,
+                      "offset": 15
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 17,
+                      "offset": 16
+                    }
+                  }
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "symbol": "C",
+        "production_id": 31,
+        "span": {
+          "start": {
+            "line": 2,
+            "column": 1,
+            "offset": 17
+          },
+          "end": {
+            "line": 2,
+            "column": 7,
+            "offset": 23
+          }
+        },
+        "children": [
+          {
+            "symbol": "show",
+            "production_id": null,
+            "span": {
+              "start": {
+                "line": 2,
+                "column": 1,
+                "offset": 17
+              },
+              "end": {
+                "line": 2,
+                "column": 5,
+                "offset": 21
+              }
+            },
+            "token": {
+              "kind": "SHOW",
+              "lexeme": "show",
+              "span": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 17
+                },
+                "end": {
+                  "line": 2,
+                  "column": 5,
+                  "offset": 21
+                }
+              }
+            },
+            "children": []
+          },
+          {
+            "symbol": "A",
+            "production_id": 32,
+            "span": {
+              "start": {
+                "line": 2,
+                "column": 6,
+                "offset": 22
+              },
+              "end": {
+                "line": 2,
+                "column": 7,
+                "offset": 23
+              }
+            },
+            "children": [
+              {
+                "symbol": "E",
+                "production_id": 8,
+                "span": {
+                  "start": {
+                    "line": 2,
+                    "column": 6,
+                    "offset": 22
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 7,
+                    "offset": 23
+                  }
+                },
+                "children": [
+                  {
+                    "symbol": "E'",
+                    "production_id": 12,
+                    "span": {
+                      "start": {
+                        "line": 2,
+                        "column": 6,
+                        "offset": 22
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 7,
+                        "offset": 23
+                      }
+                    },
+                    "children": [
+                      {
+                        "symbol": "E''",
+                        "production_id": 16,
+                        "span": {
+                          "start": {
+                            "line": 2,
+                            "column": 6,
+                            "offset": 22
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 7,
+                            "offset": 23
+                          }
+                        },
+                        "children": [
+                          {
+                            "symbol": "id",
+                            "production_id": null,
+                            "span": {
+                              "start": {
+                                "line": 2,
+                                "column": 6,
+                                "offset": 22
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 7,
+                                "offset": 23
+                              }
+                            },
+                            "token": {
+                              "kind": "ID",
+                              "lexeme": "x",
+                              "span": {
+                                "start": {
+                                  "line": 2,
+                                  "column": 6,
+                                  "offset": 22
+                                },
+                                "end": {
+                                  "line": 2,
+                                  "column": 7,
+                                  "offset": 23
+                                }
+                              }
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "symbol": ".",
+        "production_id": null,
+        "span": {
+          "start": {
+            "line": 2,
+            "column": 8,
+            "offset": 24
+          },
+          "end": {
+            "line": 2,
+            "column": 9,
+            "offset": 25
+          }
+        },
+        "token": {
+          "kind": "DOT",
+          "lexeme": ".",
+          "span": {
+            "start": {
+              "line": 2,
+              "column": 8,
+              "offset": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 9,
+              "offset": 25
+            }
+          }
+        },
+        "children": []
+      }
+    ]
+  }
+}

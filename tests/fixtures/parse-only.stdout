@@ -1,0 +1,7 @@
+UIC Set Language Compiler
+source: tests/fixtures/parse-only.set
+status: success
+
+phases:
+  lexical:  ok (4 tokens)
+  syntax:   ok (9 parse nodes)

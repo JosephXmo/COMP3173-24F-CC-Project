@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Empty source excerpts intentionally retain the space after the diagnostic gutter.
+tests/fixtures/*.stderr whitespace=-blank-at-eol

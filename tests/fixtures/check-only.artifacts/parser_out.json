@@ -1,0 +1,333 @@
+{
+  "schema": "uslc.parser.v1",
+  "source": "tests/fixtures/check-only.set",
+  "root": {
+    "symbol": "S",
+    "production_id": 2,
+    "span": {
+      "start": {
+        "line": 1,
+        "column": 1,
+        "offset": 0
+      },
+      "end": {
+        "line": 1,
+        "column": 31,
+        "offset": 30
+      }
+    },
+    "children": [
+      {
+        "symbol": "C",
+        "production_id": 31,
+        "span": {
+          "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 29,
+            "offset": 28
+          }
+        },
+        "children": [
+          {
+            "symbol": "show",
+            "production_id": null,
+            "span": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 5,
+                "offset": 4
+              }
+            },
+            "token": {
+              "kind": "SHOW",
+              "lexeme": "show",
+              "span": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 5,
+                  "offset": 4
+                }
+              }
+            },
+            "children": []
+          },
+          {
+            "symbol": "A",
+            "production_id": 32,
+            "span": {
+              "start": {
+                "line": 1,
+                "column": 6,
+                "offset": 5
+              },
+              "end": {
+                "line": 1,
+                "column": 29,
+                "offset": 28
+              }
+            },
+            "children": [
+              {
+                "symbol": "E",
+                "production_id": 10,
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 6,
+                    "offset": 5
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 29,
+                    "offset": 28
+                  }
+                },
+                "children": [
+                  {
+                    "symbol": "E",
+                    "production_id": 8,
+                    "span": {
+                      "start": {
+                        "line": 1,
+                        "column": 6,
+                        "offset": 5
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 25,
+                        "offset": 24
+                      }
+                    },
+                    "children": [
+                      {
+                        "symbol": "E'",
+                        "production_id": 12,
+                        "span": {
+                          "start": {
+                            "line": 1,
+                            "column": 6,
+                            "offset": 5
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                          }
+                        },
+                        "children": [
+                          {
+                            "symbol": "E''",
+                            "production_id": 15,
+                            "span": {
+                              "start": {
+                                "line": 1,
+                                "column": 6,
+                                "offset": 5
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 25,
+                                "offset": 24
+                              }
+                            },
+                            "children": [
+                              {
+                                "symbol": "num",
+                                "production_id": null,
+                                "span": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 6,
+                                    "offset": 5
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 25,
+                                    "offset": 24
+                                  }
+                                },
+                                "token": {
+                                  "kind": "NUM",
+                                  "lexeme": "9223372036854775807",
+                                  "span": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 6,
+                                      "offset": 5
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 25,
+                                      "offset": 24
+                                    }
+                                  },
+                                  "value": 9223372036854775807
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "symbol": "+",
+                    "production_id": null,
+                    "span": {
+                      "start": {
+                        "line": 1,
+                        "column": 26,
+                        "offset": 25
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 27,
+                        "offset": 26
+                      }
+                    },
+                    "token": {
+                      "kind": "PLUS",
+                      "lexeme": "+",
+                      "span": {
+                        "start": {
+                          "line": 1,
+                          "column": 26,
+                          "offset": 25
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 27,
+                          "offset": 26
+                        }
+                      }
+                    },
+                    "children": []
+                  },
+                  {
+                    "symbol": "E'",
+                    "production_id": 12,
+                    "span": {
+                      "start": {
+                        "line": 1,
+                        "column": 28,
+                        "offset": 27
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 29,
+                        "offset": 28
+                      }
+                    },
+                    "children": [
+                      {
+                        "symbol": "E''",
+                        "production_id": 15,
+                        "span": {
+                          "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                          }
+                        },
+                        "children": [
+                          {
+                            "symbol": "num",
+                            "production_id": null,
+                            "span": {
+                              "start": {
+                                "line": 1,
+                                "column": 28,
+                                "offset": 27
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 29,
+                                "offset": 28
+                              }
+                            },
+                            "token": {
+                              "kind": "NUM",
+                              "lexeme": "1",
+                              "span": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 28,
+                                  "offset": 27
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 29,
+                                  "offset": 28
+                                }
+                              },
+                              "value": 1
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "symbol": ".",
+        "production_id": null,
+        "span": {
+          "start": {
+            "line": 1,
+            "column": 30,
+            "offset": 29
+          },
+          "end": {
+            "line": 1,
+            "column": 31,
+            "offset": 30
+          }
+        },
+        "token": {
+          "kind": "DOT",
+          "lexeme": ".",
+          "span": {
+            "start": {
+              "line": 1,
+              "column": 30,
+              "offset": 29
+            },
+            "end": {
+              "line": 1,
+              "column": 31,
+              "offset": 30
+            }
+          }
+        },
+        "children": []
+      }
+    ]
+  }
+}

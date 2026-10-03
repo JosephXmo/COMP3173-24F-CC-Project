@@ -1,0 +1,4 @@
+let int lower be 3 .
+let set positive be { x : x > lower } .
+let set small be { y : y < 8 } .
+show positive I small U { z : z = 10 } .

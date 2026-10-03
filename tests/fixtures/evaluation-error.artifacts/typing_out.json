@@ -1,0 +1,97 @@
+{
+  "schema": "uslc.typing.v1",
+  "source": "tests/fixtures/evaluation-error.set",
+  "status": "success",
+  "symbols": [],
+  "root": {
+    "kind": "Program",
+    "span": {
+      "start": {
+        "line": 1,
+        "column": 1,
+        "offset": 0
+      },
+      "end": {
+        "line": 1,
+        "column": 31,
+        "offset": 30
+      }
+    },
+    "type": "void",
+    "children": [
+      {
+        "kind": "ShowCommand",
+        "span": {
+          "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 29,
+            "offset": 28
+          }
+        },
+        "type": "void",
+        "children": [
+          {
+            "kind": "BinaryArithmetic",
+            "span": {
+              "start": {
+                "line": 1,
+                "column": 6,
+                "offset": 5
+              },
+              "end": {
+                "line": 1,
+                "column": 29,
+                "offset": 28
+              }
+            },
+            "type": "integer",
+            "operator": "+",
+            "children": [
+              {
+                "kind": "IntegerLiteral",
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 6,
+                    "offset": 5
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 25,
+                    "offset": 24
+                  }
+                },
+                "type": "integer",
+                "value": 9223372036854775807,
+                "children": []
+              },
+              {
+                "kind": "IntegerLiteral",
+                "span": {
+                  "start": {
+                    "line": 1,
+                    "column": 28,
+                    "offset": 27
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 29,
+                    "offset": 28
+                  }
+                },
+                "type": "integer",
+                "value": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

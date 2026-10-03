@@ -1,0 +1,96 @@
+{
+  "schema": "uslc.ast.v1",
+  "source": "tests/fixtures/type-error.set",
+  "root": {
+    "kind": "Program",
+    "span": {
+      "start": {
+        "line": 1,
+        "column": 1,
+        "offset": 0
+      },
+      "end": {
+        "line": 2,
+        "column": 9,
+        "offset": 25
+      }
+    },
+    "type": "void",
+    "children": [
+      {
+        "kind": "Declaration",
+        "span": {
+          "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 17,
+            "offset": 16
+          }
+        },
+        "type": "void",
+        "name": "x",
+        "declared_type": "set",
+        "children": [
+          {
+            "kind": "IntegerLiteral",
+            "span": {
+              "start": {
+                "line": 1,
+                "column": 14,
+                "offset": 13
+              },
+              "end": {
+                "line": 1,
+                "column": 15,
+                "offset": 14
+              }
+            },
+            "type": "void",
+            "value": 4,
+            "children": []
+          }
+        ]
+      },
+      {
+        "kind": "ShowCommand",
+        "span": {
+          "start": {
+            "line": 2,
+            "column": 1,
+            "offset": 17
+          },
+          "end": {
+            "line": 2,
+            "column": 7,
+            "offset": 23
+          }
+        },
+        "type": "void",
+        "children": [
+          {
+            "kind": "Name",
+            "span": {
+              "start": {
+                "line": 2,
+                "column": 6,
+                "offset": 22
+              },
+              "end": {
+                "line": 2,
+                "column": 7,
+                "offset": 23
+              }
+            },
+            "type": "void",
+            "name": "x",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
