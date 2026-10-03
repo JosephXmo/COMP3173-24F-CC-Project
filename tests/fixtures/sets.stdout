@@ -1,0 +1,13 @@
+UIC Set Language Compiler
+source: tests/fixtures/sets.set
+status: success
+
+phases:
+  lexical:  ok (24 tokens)
+  syntax:   ok (60 parse nodes)
+  typing:   ok
+  evaluate: ok
+
+result:
+  type:  set
+  value: { x : ((x > 3) | (x > 5)) }

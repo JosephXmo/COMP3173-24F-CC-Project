@@ -1,0 +1,12 @@
+UIC Set Language Compiler
+source: tests/fixtures/evaluation-error.set
+status: error
+
+diagnostic:
+  phase:    evaluate
+  code:     E4001
+  location: 1:26-1:27
+  message:  integer overflow in operator '+'
+
+1 | show 9223372036854775807 + 1 .
+  |                          ^

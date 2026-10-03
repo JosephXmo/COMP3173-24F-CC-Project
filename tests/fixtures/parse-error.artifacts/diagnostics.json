@@ -1,0 +1,23 @@
+{
+  "schema": "uslc.diagnostics.v1",
+  "source": "tests/fixtures/parse-error.set",
+  "diagnostics": [
+    {
+      "code": "P2002",
+      "phase": "syntax",
+      "message": "unexpected EOF; expected: ., U, +, -, I, *, ), }, |, &, <, >, =, @",
+      "span": {
+        "start": {
+          "line": 2,
+          "column": 1,
+          "offset": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 1,
+          "offset": 7
+        }
+      }
+    }
+  ]
+}
