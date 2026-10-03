@@ -1,0 +1,4 @@
+let int lower be 3 .
+let set positive be { x : x > lower } .
+let set small be { y : y < 10 } .
+show 5 @ (positive I small) .

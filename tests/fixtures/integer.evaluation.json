@@ -1,0 +1,8 @@
+{
+  "schema": "uslc.evaluation.v1",
+  "status": "success",
+  "result": {
+    "type": "integer",
+    "value": 3
+  }
+}
